@@ -1,4 +1,7 @@
 package de.telran.lesson5;
+
+import org.jetbrains.annotations.NotNull;
+
 /*
 1 уровень сложности: Домашнее задание
 № 1
@@ -34,7 +37,7 @@ public class MainTask1 {
         System.out.println(myString.toLowerCase());
     }
 
- public static void penultimateCharacter(String exampleString){
+ public static void penultimateCharacter(@NotNull String exampleString){
         char result=exampleString.charAt(exampleString.length()-1);
      System.out.println(result);
  }
