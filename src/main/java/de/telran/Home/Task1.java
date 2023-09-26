@@ -35,6 +35,6 @@ public class Task1 {
         for (int num : array) {
             System.out.print(num + " ");
         }
-        System.out.println(); // Переходим на новую строку
+        System.out.println();
     }
 }

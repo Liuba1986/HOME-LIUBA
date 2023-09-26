@@ -33,7 +33,7 @@ public class Task2 {
             }
         }
 
-        // Выводим результат на экран
+
         if (isIncreasing) {
             System.out.println("\nМассив является строго возрастающей последовательностью.");
         } else {
